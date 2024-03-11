@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mental Calculation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">open</string>
+    <string name="close_nav">close</string>
+    <string name="mental_n_calculation">Mental\n Calculation</string>
+    <string name="Welcome">Welcome to the Mental Calculation app!\nDo you think you are good on calculating without use calculator?\nOK, let\'s see what you can do!!</string>
+    <string name="try_again">Try again!</string>
+    <string name="about">This is an android app developed by OUSSAMA CHATRI.\n\nThis app gives you a question on calculating to test and up your skills on Mental Calculating!\n\nIt gives you the choice to choose an operating like addition, multiplication,...etc or mix them!</string>
+    <string name="rules">1)Don\'t use calculatrice.\n\n2)Choose the answer on just 10 sec.\n\n3)Don\'t cheat!</string>
+
+
+</resources>

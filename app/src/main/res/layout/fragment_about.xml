@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aboutdestination"
+    android:background="@color/AliceBlue"
+    tools:context=".about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="30sp"
+        android:text="@string/about"
+        />
+
+    <TextView
+        android:id="@+id/facebook_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Follow me on Facebook"
+        android:autoLink="web"
+        android:drawableStart="@drawable/icons8_facebook_48"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/Blue"
+        android:onClick="openFacebook" />
+
+    <TextView
+        android:id="@+id/instagram_link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow me on Instagram"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:drawableStart="@drawable/icons8_instagram_48"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="openInstagram" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
